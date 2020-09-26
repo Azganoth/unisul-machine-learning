@@ -31,6 +31,10 @@ python supervised_classifier_bart_homer.py
     -   Matriz de confusão gerada pelo algoritmo Naive Bayes.
     -   Código-fonte (pode ser um link para o github).
 
+**Decisões:**
+
+Para essa avaliação foram escolhidos os personagens Margie Simpsons e Kent Brockman.
+
 ### 🚀 Como usar
 
 **Requerimentos:**
