@@ -1,8 +1,10 @@
 # unisul-machine-learning
 
-Código-fonte criado e usado para a matéria Aprendizado de Máquina na UNISUL.
+Coleção de scripts utilizados para a matéria Aprendizado de Máquina na UNISUL.
 
-#### Algoritmo Classificador Supervisionado
+## 📜 Scripts
+
+### Algoritmo Classificador Supervisionado
 
 Treina o reconhecimento dos personagens Bart e Homer de Os Simpsons utilizando um algoritmo classificador simples de Aprendizado de Máquina Supervisionado.
 
@@ -14,7 +16,7 @@ O script gera um arquivo no formato ARFF para ser usado no aplicativo WEKA.
 python supervised_classifier_bart_homer.py
 ```
 
-#### Avaliação 1
+### Avaliação 1
 
 **Enunciado:**
 
@@ -35,7 +37,7 @@ python supervised_classifier_bart_homer.py
 
 Para essa avaliação foram escolhidos os personagens Margie Simpsons e Kent Brockman.
 
-### 🚀 Como usar
+## 🚀 Como usar
 
 **Requerimentos:**
 
@@ -54,7 +56,7 @@ Carregar as variáveis de ambiente:
 venv/Scripts/activate
 
 # cmd
-venv/Scripts/activate.bat
+venv\Scripts\activate.bat
 
 # powershell
 venv/Scripts/Activate.ps1
@@ -72,6 +74,6 @@ Executar um script:
 python script_name.py
 ```
 
-### 🔑 Licença
+## 🔑 Licença
 
 Este projeto está sob a [licença MIT](LICENSE.md).
