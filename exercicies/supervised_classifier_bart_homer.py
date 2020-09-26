@@ -16,7 +16,9 @@ weka_data = '''
 @data
 '''
 
-samples_path = (Path(__file__).parent / 'samples/bart-homer').resolve()
+root_path = (Path(__file__).parent / '..').resolve()
+
+samples_path = (root_path / 'samples/bart-homer').resolve()
 samples_globs = ['*.jpg', '*.png', '*.bmp', '*.gif']
 
 for sample_path in [sample_path
@@ -89,5 +91,5 @@ for sample_path in [sample_path
                   f'{characteristics_homer_shoes},'
                   f'{characteristics_class}\n')
 
-with open('supervised_classifier_bart_homer_characteristics.arff', 'w') as file:
+with open((root_path / 'supervised_classifier_bart_homer_characteristics.arff'), 'w') as file:
     print(weka_data.strip(), file=file)

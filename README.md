@@ -13,7 +13,7 @@ O script gera um arquivo no formato ARFF para ser usado no aplicativo WEKA.
 **Executar:**
 
 ```sh
-python supervised_classifier_bart_homer.py
+python exercicies/supervised_classifier_bart_homer.py
 ```
 
 ### Avaliação 1
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 Executar um script:
 
 ```sh
-python script_name.py
+python script_path.py
 ```
 
 ## 🔑 Licença
