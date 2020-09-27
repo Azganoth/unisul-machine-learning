@@ -44,3 +44,4 @@ venv.bak/
 
 # Weka
 *.arff
+!test_1.arff

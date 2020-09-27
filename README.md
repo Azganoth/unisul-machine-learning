@@ -35,7 +35,16 @@ python exercicies/supervised_classifier_bart_homer.py
 
 **Decisões:**
 
-Para essa avaliação foram escolhidos os personagens Margie Simpsons e Kent Brockman.
+Para essa avaliação foram escolhidos os personagens Marge Simpson e Diretor Skinner.
+
+Como características foram escolhidas para cada personagem:
+
+-   **Marge Simpson:** o cabelo azul e o vestido verde
+-   **Diretor Skinner:** o cabelo cinza e o terno azul
+
+**Matriz de confusão:**
+
+![Confusion Matrix](/docs/test_1_confusion_matrix.png)
 
 ## 🚀 Como usar
 
