@@ -1,6 +1,8 @@
+import numpy as np
 import tkinter as tk
 from colorsys import rgb_to_hls, hls_to_rgb
 from pathlib import Path
+from sklearn.naive_bayes import GaussianNB
 from tkinter import filedialog
 from typing import List, Literal, Tuple
 
@@ -193,8 +195,20 @@ def predict():
         skinner_hair_label_var.set(f'{selected_image_characteristics[2]:.{3}f}')
         skinner_suit_label_var.set(f'{selected_image_characteristics[3]:.{3}f}')
 
-        marge_prediction_label_var.set(f'{0.998 * 100:.{1}f}%')
-        skinner_prediction_label_var.set(f'{0.002 * 100:.{1}f}%')
+        clf = GaussianNB()
+
+        X = np.array([list(characteristics[:4]) for characteristics in samples_characteristics])
+        y = np.array([[characteristics[4]] for characteristics in samples_characteristics])
+
+        clf.fit(X, y)
+
+        prediction = clf.predict([list(selected_image_characteristics)])
+
+        result_marge = 1 if prediction == ['Marge'] else 0
+        result_skinner = 1 if prediction == ['Skinner'] else 0
+
+        marge_prediction_label_var.set(f'{result_marge * 100:.{1}f}%')
+        skinner_prediction_label_var.set(f'{result_skinner * 100:.{1}f}%')
 
 
 # quadros
