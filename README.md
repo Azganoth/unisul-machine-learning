@@ -46,6 +46,12 @@ Como características foram escolhidas para cada personagem:
 
 ![Confusion Matrix](/docs/test_1_confusion_matrix.png)
 
+**Executar:**
+
+```sh
+python tests/test_1.py
+```
+
 ## 🚀 Como usar
 
 **Requerimentos:**
