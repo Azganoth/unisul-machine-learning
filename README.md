@@ -4,18 +4,6 @@ Coleção de scripts utilizados para a matéria Aprendizado de Máquina na UNISU
 
 ## 📜 Scripts
 
-### Algoritmo Classificador Supervisionado
-
-Treina o reconhecimento dos personagens Bart e Homer de Os Simpsons utilizando um algoritmo classificador simples de Aprendizado de Máquina Supervisionado.
-
-O script gera um arquivo no formato ARFF para ser usado no aplicativo WEKA.
-
-**Executar:**
-
-```sh
-python exercicies/supervised_classifier_bart_homer.py
-```
-
 ### Avaliação 1
 
 **Enunciado:**
@@ -49,7 +37,17 @@ Como características foram escolhidas para cada personagem:
 **Executar:**
 
 ```sh
-python tests/test_1.py
+python test_1.py
+```
+
+### Classificação Marge Simpson e Diretor Skinner
+
+Avaliação 1 com adição do algoritmo da Árvore de Decisão.
+
+**Executar:**
+
+```sh
+python marge_skinner.py
 ```
 
 ## 🚀 Como usar

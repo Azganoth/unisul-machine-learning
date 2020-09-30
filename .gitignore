@@ -41,7 +41,3 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Weka
-*.arff
-!test_1.arff
