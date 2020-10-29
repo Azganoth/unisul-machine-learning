@@ -6,7 +6,7 @@ Coleção de scripts utilizados para a matéria Aprendizado de Máquina na UNISU
 
 ### Avaliação 1
 
-**Enunciado:**
+#### Enunciado
 
 -   Desenvolva um programa para realizar extração de características de imagens (conforme apresentado em aula).
 -   O programa deve ser capaz de analisar um dataset de imagens e criar um arquivo **\*.arff** com as características de todas as imagens contidas no dataset.
@@ -21,7 +21,7 @@ Coleção de scripts utilizados para a matéria Aprendizado de Máquina na UNISU
     -   Matriz de confusão gerada pelo algoritmo Naive Bayes.
     -   Código-fonte (pode ser um link para o github).
 
-**Decisões:**
+#### Decisões
 
 Para essa avaliação foram escolhidos os personagens Marge Simpson e Diretor Skinner.
 
@@ -30,11 +30,11 @@ Como características foram escolhidas para cada personagem:
 -   **Marge Simpson:** o cabelo azul e o vestido verde
 -   **Diretor Skinner:** o cabelo cinza e o terno azul
 
-**Matriz de confusão:**
+#### Matriz de confusão
 
 ![Confusion Matrix](/docs/test_1_confusion_matrix.png)
 
-**Executar:**
+#### Executar
 
 ```sh
 python test_1.py
@@ -44,7 +44,7 @@ python test_1.py
 
 Avaliação 1 com adição do algoritmo da Árvore de Decisão.
 
-**Executar:**
+#### Executar
 
 ```sh
 python marge_skinner.py
