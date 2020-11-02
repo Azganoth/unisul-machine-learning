@@ -103,6 +103,8 @@ Média e mediana dos valores da largura de banda espectral de cada quadro do aud
 - As camadas ocultas consistem de **2** *(duas)* camadas com **5** *(cinco)* neurônios em cada.
 - A função tangente hiperbólica mostrou o melhor resultado como função de ativação.
 - A taxa de aprendizagem `0.2` se mostrou a mais eficiente.
+- O momentum `0.15` mostrou um bom resultado.
+- Apesar do treinamento ser concluído por volta de 500 iterações, foi dado um máximo de 1000 iterações.
 
 #### Executar
 
