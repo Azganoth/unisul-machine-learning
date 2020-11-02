@@ -76,6 +76,40 @@ O dataset [Audio Cats and Dogs](https://www.kaggle.com/mmoreaux/audio-cats-and-d
 
 Todos os arquivos WAV possuem frequência de 16KHz e duração variável.
 
+#### Descrição das características
+
+`chroma_stft_mean` `chroma_stft_var`
+
+Média e mediana dos valores do cromagrama de cada quadro do audio.
+
+> Um cromagrama é a projeção de um espectro de quadro de audio em 12 caixas que representam os 12 semitons distintos (ou croma) da oitava musical (intervalo entre uma nota musical e outra com a metade ou o dobro de sua frequência).
+
+`rms_mean` `rms_var`
+
+Média e mediana dos valores da raiz do valor quadrático médio de cada quadro do audio.
+
+`spectral_centroid_mean` `spectral_centroid_var`
+
+Média e mediana dos valores da centróide espectral de cada quadro do audio.
+
+> O Centróide espectral indica onde o centro da massa de um audio está localizada e calcula a média ponderada das frequências presentes no audio.
+
+`spectral_bandwidth_mean` `spectral_bandwidth_var`
+
+Média e mediana dos valores da largura de banda espectral de cada quadro do audio.
+
+#### Configurações da rede neural
+
+- As camadas ocultas consistem de **2** *(duas)* camadas com **5** *(cinco)* neurônios em cada.
+- A função tangente hiperbólica mostrou o melhor resultado como função de ativação.
+- A taxa de aprendizagem `0.2` se mostrou a mais eficiente.
+
+#### Executar
+
+```sh
+python test_2.py
+```
+
 ## 🚀 Como usar
 
 **Requerimentos:**
