@@ -112,6 +112,48 @@ Média e mediana dos valores da largura de banda espectral de cada quadro do aud
 python test_2.py
 ```
 
+### Avaliação 3
+
+#### Enunciado
+
+Descobrir “informações” que não estão visíveis no dataset, como por exemplo:
+
+- Existe associação entre vendas?
+- Percebe-se mudança de perfil das vendas a medida que o tempo passa?
+- É possível fazer algum agrupamento baseando-se em vendas?
+- É possível descobrir algum perfil de jogador com base no local da venda?
+- O nome do jogo está associado ao gênero?
+- É possível prever se alguma editora está em queda ou melhorando as vendas a medida que o tempo passa?
+- Existe associações entre gêneros e plataformas? Ou entre gêneros e vendas?
+- Outras descobertas.
+
+##### Entregar
+
+- Descrição de todas as técnicas, algoritmos e parâmetros utilizados como teste do dataset, mesmo as que não descobriram absolutamente nada como resultado final.
+- Descrição da técnica, algoritmo e parâmetros que geraram alguma descoberta.
+- Descrição da(s) descoberta(s) obtida(s).
+- Informação de como foram feitos os testes (desenvolvimento de aplicação ou uso de alguma aplicação como o WEKA).
+- No caso de desenvolvimento disponibilização do códigofonte.
+- Parágrafo conclusivo relacionando o trabalho com os aspectos abordados na Unidade de Aprendizagem.
+
+##### Detalhes do dataset
+
+O dataset [Venda de jogos](/samples/vendas_de_jogos.csv) consiste de:
+
+- 16.598 entradas contendo informações de venda de jogos.
+- Cada entrada contém as seguintes informações sobre uma venda:
+  - **Ranking:** posição no *ranking* de vendas;
+  - **Nome:** nome do jogo;
+  - **Plataforma:** plataforma em que o jogo foi liberado (PC, PS4, XBOX, etc);
+  - **Ano:** ano de lançamento do jogo;
+  - **Gênero:** gênero do jogo;
+  - **Editora:** empresa que publicou o jogo;
+  - **Vendas América do Norte:** vendas na América do Norte (em milhões de dólares);
+  - **Vendas EUA:** vendas na Europa (em milhões de dólares);
+  - **Vendas Japão:** vendas no Japão (em milhões de dólares);
+  - **Vendas em outros paises:** vendas no restante do mundo (em milhões de dólares);
+  - **Vendas totais:** total de vendas no mundo inteiro (em milhões de dólares).
+
 ## 🚀 Como usar
 
 **Requerimentos:**
