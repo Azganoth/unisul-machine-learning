@@ -154,6 +154,63 @@ O dataset [Venda de jogos](/samples/vendas_de_jogos.csv) consiste de:
   - **Vendas em outros paises:** vendas no restante do mundo (em milhões de dólares);
   - **Vendas totais:** total de vendas no mundo inteiro (em milhões de dólares).
 
+
+
+
+#### Descrição
+
+O dataset passou por um pré-processamento, onde todas as linhas com informações nulas, foram removidas.
+Durante os testes foram utilizados diversas funções para categorizar os dados, por gênero, plataforma, ano e quantidade de vendas.
+Todos os testes foram feitos em python utilizando o ambiente Jupyter através do aplicativo Google Collab. [Link para o código-fonte](https://colab.research.google.com/drive/1nCuulQNKRdRmHcuxgvoocyh4g0HXwIpL?usp=sharing).
+
+#### Descobertas
+
+##### Descoberta 1:
+
+![Descoberta 1](/docs/test_3_desc_1.png)
+
+Com o gráfico, conclui-se que a maior quantidade de jogos são do gênero Ação, seguido pelo gênero Esportes.
+
+##### Descoberta 2:
+
+![Descoberta 2](/docs/test_3_desc_2.png)
+
+Com o gráfico, conclui-se que o gênero mais vendido globalmente é de Ação, seguido de Esportes. Se diferenciando do padrão em outros países, no Japão há uma preferência maior para jogos do gênero RPG, vendo até mais do que jogos do gênero Ação e Esportes.
+
+##### Descoberta 3:
+
+![Descoberta 3](/docs/test_3_desc_3.png)
+
+Com o gráfico, conclui-se que as plataformas Nintendo DS e PS2 possuem a maior quantidade de jogos. Enquanto a plataforma PS2 possui mais jogos do gênero Esportes, com 391 jogos, a Nintendo DS possui mais do gênero Diverso, com 389 jogos.
+
+##### Descoberta 4:
+
+![Descoberta 4](/docs/test_3_desc_4.png)
+
+Com o gráfico, conclui-se que a plataforma com mais jogos vendidos é o PS2, seguido de X360, PS3, Wii e Nintendo DS.
+
+##### Descoberta 5:
+
+![Descoberta 5](/docs/test_3_desc_5.png)
+
+Com o gráfico, conclui-se que houve um aumento gigantesco de vendas nos últimos anos, principalmente em jogos dos gêneros Ação, Esportes e Diverso.
+
+##### Descoberta 6:
+
+![Descoberta 6](/docs/test_3_desc_6.png)
+
+Com o gráfico, conclui-se que as vendas, apesar de aumentarem bastante no mundo todo, tiveram um aumento desproporcional na América do Norte nos últimos anos.
+
+##### Descoberta 7:
+
+![Descoberta 7](/docs/test_3_desc_7.png)
+
+Com o gráfico, conclui-se que a plataforma X360 possui o maior número de vendas de jogos do gênero FPS, enquanto a plataforma PS3 possui o maior número de vendas de jogos do gênero Ação.
+
+#### Conclusão
+
+Apesar de não utilizar nenhum algoritmo abordado na disciplina, foi utilizado pré-processamento de dados para focar em informações úteis.
+
 ## 🚀 Como usar
 
 **Requerimentos:**
